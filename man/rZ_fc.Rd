@@ -1,0 +1,29 @@
+\name{rZ_fc}
+\alias{rZ_fc}
+\title{Sample from the full conditional distribution of the probit 
+latent variables}
+ 
+\description{
+Sample from the full conditional distribution of the 
+latent variables in the ordered probit model
+}
+\usage{
+rZ_fc(EZ = XB(X, b) + ULU(UL), MH = TRUE)
+}
+
+\arguments{
+  \item{EZ}{a symmetric matrix with elements equal to the expected values 
+    of the latent variables
+    }
+  \item{MH}{ whether or not to do a Metropolis update in addition 
+to the Gibbs sampling
+}    }
+
+\value{
+a symmetric matrix
+}
+\author{Peter Hoff}
+
+\keyword{ multivariate }
+\keyword{ models }
+
