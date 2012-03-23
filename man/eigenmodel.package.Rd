@@ -19,8 +19,8 @@ Semiparametric factor and regression models for symmetric relational data
 \tabular{ll}{
 Package: \tab eigenmodel\cr
 Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2007-06-25\cr
+Version: \tab 1.01\cr
+Date: \tab 2012-03-23\cr
 License: \tab GPL Version 2 \cr
 }
 }

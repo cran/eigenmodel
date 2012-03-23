@@ -8,7 +8,7 @@ quantile-based posterior
 confidence intervals of regression coefficients. 
 }
 \usage{
-plot.eigenmodel_post(x, ...)
+\method{plot}{eigenmodel_post}(x, ...)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
