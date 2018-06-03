@@ -1,3 +1,15 @@
+#' Plot the output of an eigenmodel fit
+#' 
+#' A graphical display of MCMC output and posterior estimates of model
+#' parameters in an eigenmodel fit. Includes 95 percent quantile-based
+#' posterior confidence intervals of regression coefficients.
+#' 
+#' 
+#' @param x an object of class \code{eigenmodel_post}
+#' @param ... additional plotting options
+#' @return NULL
+#' @author Peter Hoff
+#' @keywords multivariate
 "plot.eigenmodel_post" <-
 function(x,...) {
 

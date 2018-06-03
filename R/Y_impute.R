@@ -1,3 +1,13 @@
+#' Impute missing values of a sociomatrix
+#' 
+#' Impute missing values of a sociomatrix
+#' 
+#' Imputes missing values of a sociomatrix from a matrix of latent variables
+#' and an ordered-probit specification.
+#' 
+#' @return symmetric matrix
+#' @author Peter Hoff
+#' @keywords multivariate models
 "Y_impute" <-
 function() {
 

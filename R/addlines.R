@@ -1,3 +1,16 @@
+#' Adds lines between nodes to an existing plot of nodes
+#' 
+#' Adds lines between nodes to an existing plot of nodes
+#' 
+#' 
+#' @param U an n x 2 matrix of node locations
+#' @param Y a symmetric matrix
+#' @param col color of the lines
+#' @param lwd width of the lines
+#' @param lty line type
+#' @return NULL
+#' @author Peter Hoff
+#' @keywords multivariate
 "addlines" <-
 function(U,Y,col="green",lwd=1,lty=1) {
 u1<-U[,1]; u2<-U[,2]

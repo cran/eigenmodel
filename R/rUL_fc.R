@@ -1,3 +1,14 @@
+#' Sample UL from its full conditional distribution
+#' 
+#' Samples the components of a reduced rank approximating matrix from their
+#' full conditional distributions
+#' 
+#' 
+#' @param E an n x n symmetric matrix to be modeled with a reduced rank matrix
+#' @return A list with the following components: \item{U}{an n x r matrix of
+#' eigenvectors } \item{L}{an r x r diagonal matrix of eigenvalues}
+#' @author Peter Hoff
+#' @keywords multivariate models
 "rUL_fc" <-
 function( E=Z-XB(X,b) ) { 
 
@@ -7,11 +18,11 @@ function( E=Z-XB(X,b) ) {
   U<-UL$U ; L<-UL$L
 
   if(R>0) {
-
-  mean_u<<-rnorm(R, 
+  mean_u<-rnorm(R, 
   ( (1/var_u)*apply(UL$U,2,sum)+pp_mu*pm_mu ) / ( n/var_u+pp_mu ),
   1/sqrt(n/var_u + pp_mu ) 
                  )
+  mean_u<<-mean_u
 
 
   for(i in sample(1:n,size=n) ) {

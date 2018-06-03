@@ -1,3 +1,14 @@
+#' Setup constants and starting values for an eigenmodel fit
+#' 
+#' Setup constants and starting values for an eigenmodel fit
+#' 
+#' 
+#' @param R non-negative integer rank of the approximating matrix
+#' @param seed a random seed
+#' @param em_env enviromnemt within which to do the fitting
+#' @return NULL
+#' @author Peter Hoff
+#' @keywords multivariate models
 "eigenmodel_setup" <-
 function(R=0,seed=1,em_env=.GlobalEnv){
 

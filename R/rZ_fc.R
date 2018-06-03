@@ -1,3 +1,16 @@
+#' Sample from the full conditional distribution of the probit latent variables
+#' 
+#' Sample from the full conditional distribution of the latent variables in the
+#' ordered probit model
+#' 
+#' 
+#' @param EZ a symmetric matrix with elements equal to the expected values of
+#' the latent variables
+#' @param MH whether or not to do a Metropolis update in addition to the Gibbs
+#' sampling
+#' @return a symmetric matrix
+#' @author Peter Hoff
+#' @keywords multivariate models
 "rZ_fc" <-
 function( EZ=XB(X,b)+ULU(UL), MH=TRUE ) {
 

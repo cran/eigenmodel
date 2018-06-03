@@ -1,3 +1,13 @@
+#' Computes a sociomatrix of regression effects
+#' 
+#' Computes a sociomatrix of regression effects
+#' 
+#' 
+#' @param X an n x n x p array
+#' @param b a p x 1 vector
+#' @return an n x n matrix
+#' @author Peter Hoff
+#' @keywords multivariate models
 "XB" <-
 function(X,b) {
 
