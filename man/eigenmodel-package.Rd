@@ -15,7 +15,7 @@ can be arbitrary, and is fit with an ordered probit specification. See Hoff (200
 }
 \details{
 \tabular{ll}{ Package: \tab eigenmodel\cr Type: \tab Package\cr Version:
-\tab 1.10\cr Date: \tab 2018-05-26\cr License: \tab GPL Version 2 \cr }
+\tab 1.11\cr Date: \tab 2019-05-28\cr License: \tab GPL Version 2 \cr }
 }
 \examples{
 

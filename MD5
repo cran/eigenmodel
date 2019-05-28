@@ -1,12 +1,12 @@
-a2911d5473cb1e3bd5919659414efea9 *DESCRIPTION
+336d612ad9e09016d2f723844b7362da *DESCRIPTION
 584b10c317e5c09b7db1891543106e05 *NAMESPACE
-9f862db7ef1ff887a218fbedb86ae710 *NEWS.md
+05a5ae0e35c74c6fc43c3a5cc3cca587 *NEWS.md
 b05454d3c377502baba2eebae8385bd9 *R/ULU.R
 59a964d7c0ea0282dd43b060cd3649f5 *R/XB.R
 155ae6f25d684383a11a53b9b09857b3 *R/Y_impute.R
 fda531e2c28184992ce6a6b5bfee52fa *R/addlines.R
-5ee1f0dbcd5abf84bd644ca107294cd2 *R/eigenmodel-package.R
-4ad6dd443a14e4a44c62a5911a2d09c9 *R/eigenmodel_mcmc.R
+5b22fa83a40a58489b4e431cfb740c58 *R/eigenmodel-package.R
+d03936bc73e6153725f5e18d7d28cea5 *R/eigenmodel_mcmc.R
 22f5d88aee4028e3962c8cc31c7e4a07 *R/eigenmodel_setup.R
 0dd24f3bf45f69d2ce7c2a6aa1e32a51 *R/plot.eigenmodel_post.R
 c8b27edd1c4965bca474fbf3c00494d5 *R/rUL_fc.R
@@ -23,7 +23,7 @@ e14cc53aed4577c128820aaf4c1ebd90 *man/Y_Gen.Rd
 5cda7551d9a82eb76082245f61f01cf8 *man/Y_Pro.Rd
 422c57afc00a18ba345ba7941b0269d0 *man/Y_impute.Rd
 f3481ae5fd5ae9c6414ab04394717a59 *man/addlines.Rd
-bc7d3ee6c6f83151a9003effe7cf03ab *man/eigenmodel-package.Rd
+e5bc14c393d04fd67198ffffb0f67516 *man/eigenmodel-package.Rd
 4375908f5f92761f588bb1e79edfda23 *man/eigenmodel_mcmc.Rd
 d90a0e8a2a6850dfb26b7054190da4c5 *man/eigenmodel_setup.Rd
 357541386c4e2a0d82cd1337804600de *man/plot.eigenmodel_post.Rd

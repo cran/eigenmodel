@@ -63,8 +63,7 @@ environment(Y_impute)<-mcmc_env
   Y_postsum<-Z_postsum<-ULU_postsum<-matrix(0,dim(Y)[1],dim(Y)[1])
   L_postsamp<-b_postsamp<-NULL   
 
-  set.seed(seed)
-  eigenmodel_setup(R,em_env=mcmc_env)
+  eigenmodel_setup(R,em_env=mcmc_env,seed=seed)
 
   nss<-0
   ss<-round(seq(burn+1,S+burn,length=Nss))

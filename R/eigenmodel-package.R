@@ -12,7 +12,7 @@ utils::globalVariables(c("R","Ranks","UL","X","Y","Z","b","mean_u","n","pm_b","p
 #' (2007) <arXiv:0711.1146> for details on the model. 
 #' 
 #' \tabular{ll}{ Package: \tab eigenmodel\cr Type: \tab Package\cr Version:
-#' \tab 1.10\cr Date: \tab 2018-05-26\cr License: \tab GPL Version 2 \cr }
+#' \tab 1.11\cr Date: \tab 2019-05-28\cr License: \tab GPL Version 2 \cr }
 #' 
 #' @name eigenmodel-package
 #' @aliases eigenmodel-package eigenmodel
